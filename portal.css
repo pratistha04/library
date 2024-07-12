@@ -1,0 +1,121 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('log.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.2);
+    color: #780372;
+    padding: 1em;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #780376;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+nav a:hover {
+    background-color: rgba(252, 192, 238, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+}
+
+#add-book-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+#add-book-form label {
+    grid-column: 1;
+}
+
+#add-book-form input {
+    grid-column: 2;
+}
+
+#book-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#book-list li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#book-list li:last-child {
+    border-bottom: none;
+}
+
+#book-list li button {
+    float: right;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #502c4f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+}
+
+#book-list li button:hover {
+    background-color: rgba(201, 26, 207, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* footer {
+    background: rgba(255, 255, 255, 0.2);
+    color: #0f4654;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+} */
